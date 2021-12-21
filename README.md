@@ -1,4 +1,4 @@
-﻿# Microstorm Prototype V2
+# Microstorm Prototype V2
 
 Microstorm Prototype V2 is the second version of the orginial Microstorm Prototype. With this version some more features are embedded on to the board.
 
@@ -19,11 +19,29 @@ Microstorm Prototype V2 is the second version of the orginial Microstorm Prototy
 
 
 ## Pinout
-![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/PCB-View-Top.png?raw=true)
+![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/Pinout.png?raw=true)
 **Expansion**
 |  |  |  | / | Expansion | \ |  |  |
 |--|--|--|--|--|--|--|--|
 | +3.3V | GND | SCL | RXD | TXD2 | GPIO14 | GPIO18 | GPIO23 |
 | VCC | +5V | SDA | TXD | RXD2 | GPIO5 | GPIO15 | GPIO19 |
 
+|  |  |
+|--|--|
+|  |  |
 
+
+## Known issues
+The following issues are known with Prototype V2
+
+ - Voltage monitoring not working
+ - Expension -> Expansion
+ - MPU6050 Not working (Probably something with the wiring), use external module instead
+## FAQ
+### Arduino IDE keeps trying to connect to board
+> `Connecting........________........________........`
+> This is default behaviour of the ESP32 Chip. *GPIO 0* should be pulled low to accept connection. On the board a *latch circuit* is used to do this automatically. In some cases it doesn't respond. To fix this, hold the BOOT button when uploading your code.
+
+### Can't connect to build-in IMU (MPU6050)
+
+> This is a kown issue with this version of the board, please use an external module instead via the I2C Expansion connectors.
