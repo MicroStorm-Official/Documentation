@@ -10,7 +10,7 @@ Microstorm Prototype V2 is the second version of the orginial Microstorm Prototy
 |--|--|--|
 |**Connectivity**| WiFi| 802.11 b/g/n/d/e/i/k/r (802.11n up to 150 Mbps)
 ||Bluetooth|Bluetooth v4.2 BR/EDR and BLE specification
-||I2C|Accessable from 3 expantion headers
+||I2C|Accessable from 3 expansion headers
 |**Sensors**|3-axis MEMS accelerometer|Acceleration Range: ± 2g, ± 4g, ± 8g, ± 16g (NOT WORKING)
 ||3-axis MEMS gyroscope|Gyroscope Range: ± 250°/s, ± 500°/s, ± 1000°/s, ± 2000°/s (NOT WORKING)
 |**Lighting**|2x Neopixels|Individual Addressable LED's (WS2812b)
@@ -20,5 +20,10 @@ Microstorm Prototype V2 is the second version of the orginial Microstorm Prototy
 
 ## Pinout
 ![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/PCB-View-Top.png?raw=true)
+**Expansion**
+|  |  |  | / | Expansion | \ |  |  |
+|--|--|--|--|--|--|--|--|
+| +3.3V | GND | SCL | RXD | TXD2 | GPIO14 | GPIO18 | GPIO23 |
+| VCC | +5V | SDA | TXD | RXD2 | GPIO5 | GPIO15 | GPIO19 |
 
 
