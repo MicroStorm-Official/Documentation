@@ -1,3 +1,5 @@
+![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/PCB-View-Top-Drawing.png?raw=true)
+
 # Microstorm Prototype V2
 
 Microstorm Prototype V2 is the second version of the orginial Microstorm Prototype. With this version some more features are embedded on to the board.
@@ -35,9 +37,7 @@ The following issues are known with Prototype V2
 ## FAQ
 ### Arduino IDE keeps trying to connect to board
 > `Connecting........________........________........`
-> ![Pinout](https://user-images.githubusercontent.com/47790980/146965980-84eef07d-6e30-45ea-b534-dc0c082837f0.png)![Pinout](https://user-images.githubusercontent.com/47790980/146965986-cb958a5f-7fcb-4be6-b21b-170abb072dde.png)
-
-
+>
 > This is default behaviour of the ESP32 Chip. *GPIO 0* should be pulled low to accept connection. On the board a *latch circuit* is used to do this automatically. In some cases it doesn't respond. To fix this, hold the BOOT button when uploading your code.
 
 ### Can't connect to build-in IMU (MPU6050)
