@@ -20,15 +20,10 @@ Microstorm Prototype V2 is the second version of the orginial Microstorm Prototy
 
 ## Pinout
 ![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/Pinout.png?raw=true)
-**Expansion**
-|  |  |  | / | Expansion | \ |  |  |
-|--|--|--|--|--|--|--|--|
-| +3.3V | GND | SCL | RXD | TXD2 | GPIO14 | GPIO18 | GPIO23 |
-| VCC | +5V | SDA | TXD | RXD2 | GPIO5 | GPIO15 | GPIO19 |
 
-|  |  |
-|--|--|
-|  |  |
+| Number | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| **Description** | +3.3V | VCC (Battery) | GND | +5V | SCL | SDA | RXD | TXD | TXD2 | RXD2 | GPIO14 | GPIO5 | GPIO18 | GPIO15 | GPIO23 | GPIO19 |
 
 
 ## Known issues
@@ -40,6 +35,9 @@ The following issues are known with Prototype V2
 ## FAQ
 ### Arduino IDE keeps trying to connect to board
 > `Connecting........________........________........`
+> ![Pinout](https://user-images.githubusercontent.com/47790980/146965980-84eef07d-6e30-45ea-b534-dc0c082837f0.png)![Pinout](https://user-images.githubusercontent.com/47790980/146965986-cb958a5f-7fcb-4be6-b21b-170abb072dde.png)
+
+
 > This is default behaviour of the ESP32 Chip. *GPIO 0* should be pulled low to accept connection. On the board a *latch circuit* is used to do this automatically. In some cases it doesn't respond. To fix this, hold the BOOT button when uploading your code.
 
 ### Can't connect to build-in IMU (MPU6050)
