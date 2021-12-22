@@ -1,4 +1,4 @@
-![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/Images/PCB-View-Top-Drawing.png?raw=true)
+![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/images/PCB-View-Top-Drawing.png?raw=true)
 
 # Microstorm Prototype V2
 
@@ -21,7 +21,7 @@ Microstorm Prototype V2 is the second version of the orginial Microstorm Prototy
 
 
 ## Pinout
-![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/Images/Pinout.png?raw=true)
+![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/images/Pinout.png?raw=true)
 
 | Number | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
