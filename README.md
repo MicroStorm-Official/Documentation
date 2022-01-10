@@ -34,9 +34,13 @@ Microstorm Prototype V2 is the second version of the orginial Microstorm Prototy
 |GPIO13|PWM control motor A|
 |GPIO26|Direction control pin 1 of motor A|
 |GPIO27|Direction control pin 2 of motor A|
+|GPIO35|Motor A encoder pin 1|
+|GPIO34|Motor A encoder pin 2|
 |GPIO25|PWM control motor B|
 |GPIO33|Direction control pin 1 of motor B|
 |GPIO32|Direction control pin 2 of motor B|
+|GPIO39|Motor B encoder pin 1|
+|GPIO36|Motor B encoder pin 2|
 
 ### Neopixel LEDs
 Neopixels are individually addressable RGB Leds. In Microstorm prototype V2 there are two on located on the PCB. These are WS2812b LEDs. Also These are expandable with the 3-pin JST-connector located on the board. When you hold the PCB with USB-C-port facing down the pinout of this connector is: [GND DOUT +5V]. To control the Neopixels you can use the following pinout:
