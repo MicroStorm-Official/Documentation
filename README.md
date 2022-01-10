@@ -13,7 +13,7 @@ Microstorm Prototype V2 is the second version of the orginial Microstorm Prototy
 | | Features| Specifications
 |--|--|--|
 |**Connectivity**| WiFi| 802.11 b/g/n/d/e/i/k/r (802.11n up to 150 Mbps)
-||Bluetooth|Bluetooth v4.2 BR/EDR and BLE specification
+|(ESP32-S)|Bluetooth|Bluetooth v4.2 BR/EDR and BLE specification
 ||I2C|Accessable from 3 expansion headers
 |**Sensors**|3-axis MEMS accelerometer|Acceleration Range: ± 2g, ± 4g, ± 8g, ± 16g (NOT WORKING)
 ||3-axis MEMS gyroscope|Gyroscope Range: ± 250°/s, ± 500°/s, ± 1000°/s, ± 2000°/s (NOT WORKING)
