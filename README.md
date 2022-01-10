@@ -21,7 +21,7 @@ Microstorm Prototype V2 is the second version of the orginial Microstorm Prototy
 |**Actuators**|Dual Motor Connectors|Compatible with Lego Mindstorms EV3/NXT (Including their encoders)
 |**Safety Features**| Auto-shutdown | When Battery reaches ~6.5 volts. This extends the life time of the battery and makes sure that the board cannot be under powered
 
-### Expansion Header
+### Expantion Header
 ![Top View](https://github.com/MicroStorm-Official/Resources/blob/main/images/Pinout.png?raw=true)
 
 | Number | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16
